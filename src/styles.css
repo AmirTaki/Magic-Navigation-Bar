@@ -131,3 +131,7 @@ ul ul {
     display: none;
     transition: 1s;
 }
+
+.showMenuChild {
+    transform: rotate(180deg);
+}
