@@ -4,3 +4,8 @@
     --height-begin: 40px;
     --height-end: 40px
 }
+body{
+    font-family: system-ui;
+    height: 100vh;
+    background-image: radial-gradient(ellipse at left, #2D193B, #090A20);
+}
