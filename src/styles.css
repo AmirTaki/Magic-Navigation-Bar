@@ -23,3 +23,13 @@ ul {
     margin: 0;
     position: relative;
 }
+
+ul li {
+    padding: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    color: #757474;   
+    cursor: pointer;
+    transition: .5s;
+    transition-delay: 1s
+}
