@@ -30,7 +30,9 @@ icondowns.forEach((icon) => {
         this.classList.toggle("showMenuChild")
     })
     items.forEach((item) => {
-        
+        if(item.classList.contains("active")){
+            document.documentElement.style.setProperty("--height-end", item.offsetHeight + "px")
+        }
     })
 })
 
