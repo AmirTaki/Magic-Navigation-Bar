@@ -9,3 +9,11 @@ body{
     height: 100vh;
     background-image: radial-gradient(ellipse at left, #2D193B, #090A20);
 }
+.menu {
+    background-color: rgb(42, 36, 77, .2);
+    width: 280px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 70px;
+
+}
