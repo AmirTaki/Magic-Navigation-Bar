@@ -90,3 +90,15 @@ ul li:nth-last-child(1){
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
+ul li li::before{
+    position: absolute;
+    left: 13px;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    content: '';
+    background-color: #DD789A;
+    z-index: 1;
+    transition: 1s;
+}
