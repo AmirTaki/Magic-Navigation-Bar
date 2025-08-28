@@ -74,3 +74,14 @@ ul li li {
     position: relative;
     z-index: 1;
 }
+
+
+@keyframes shochild {
+    from {
+        opacity: 0;
+        transform:  translate(0, -20px);
+    }   
+    to {
+        opacity: 1;
+    }
+}
