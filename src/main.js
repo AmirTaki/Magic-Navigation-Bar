@@ -18,9 +18,16 @@ items.forEach((item) => {
         document.documentElement.style.setProperty("--height-end", this.offsetHeight + "px");
         document.documentElement.style.setProperty("--top-end", this.offsetTop + "px");
 
-        action.classList.remove('runanimation')
-        void action.offsetWidth;
-        action.classList.add("runanimation")
+        // action.classList.remove('runanimation')
+        // void action.offsetWidth;
+        // action.classList.add("runanimation")
+    }, false)
+
+})
+
+icondowns.forEach(icon => {
+    icon.addEventListener("click", function () {
+        
     })
 })
 
