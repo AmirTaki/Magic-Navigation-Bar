@@ -25,9 +25,9 @@ items.forEach((item) => {
 
 })
 
-icondowns.forEach(icon => {
+icondowns.forEach((icon) => {
     icon.addEventListener("click", function () {
-        
+        this.classList.toggle("showMenuChild")
     })
 })
 
