@@ -11,8 +11,9 @@ items.forEach((item) => {
         items.forEach(remove_active => {
             remove_active.classList.remove("active")
         })
-
-        
+        // console.log(e.target)
+        this.classList.add('active');
+        document.documentElement.style.setProperty("--height-begin", action.offsetHeight + "px")
     })
 })
 
