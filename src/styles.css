@@ -155,3 +155,7 @@ ul ul {
 .active li ::before {
     background-color: #eee;
 }
+
+.runanimtion {
+    animation: animationaction 1s ease-in 1;
+}
