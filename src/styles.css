@@ -175,4 +175,8 @@ ul ul {
         height: 1-px;
         transform: translate(15px);
     }
+    50%{
+        filter:none;
+        height: 10px;
+    }
 }
