@@ -17,7 +17,10 @@ items.forEach((item) => {
         document.documentElement.style.setProperty("--top-begin", action.offsetParent + "px" );
         document.documentElement.style.setProperty("--height-end", this.offsetHeight + "px");
         document.documentElement.style.setProperty("--top-end", this.offsetTop + "px");
-        
+
+        action.classList.remove('runanimation')
+        void action.offsetWidth;
+        action.classList.add("runanimation")
     })
 })
 
