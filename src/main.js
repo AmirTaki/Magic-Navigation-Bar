@@ -32,6 +32,7 @@ icondowns.forEach((icon) => {
     items.forEach((item) => {
         if(item.classList.contains("active")){
             document.documentElement.style.setProperty("--height-end", item.offsetHeight + "px")
+            document.documentElement.style.setProperty('--top-end', item.offsetTop + "px")
         }
     })
 })
