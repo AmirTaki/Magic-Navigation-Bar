@@ -15,6 +15,7 @@ items.forEach((item) => {
         this.classList.add('active');
         document.documentElement.style.setProperty("--height-begin", action.offsetHeight + "px");
         document.documentElement.style.setProperty("--top-begin", action.offsetParent + "px" );
+        document.documentElement.style.setProperty("--height-end", this.offsetHeight + "px");
         
     })
 })
