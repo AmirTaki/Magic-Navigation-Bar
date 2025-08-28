@@ -159,3 +159,7 @@ ul ul {
 .runanimtion {
     animation: animationaction 1s ease-in 1;
 }
+
+.active, .active li {
+    color: #fff;
+}
