@@ -13,7 +13,9 @@ items.forEach((item) => {
         })
         // console.log(e.target)
         this.classList.add('active');
-        document.documentElement.style.setProperty("--height-begin", action.offsetHeight + "px")
+        document.documentElement.style.setProperty("--height-begin", action.offsetHeight + "px");
+        document.documentElement.style.setProperty("--top-begin", action.offsetParent + "px" );
+        
     })
 })
 
