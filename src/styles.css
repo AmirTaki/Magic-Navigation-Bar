@@ -85,3 +85,8 @@ ul li li {
         opacity: 1;
     }
 }
+
+ul li:nth-last-child(1){
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
