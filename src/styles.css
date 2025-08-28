@@ -125,3 +125,9 @@ ul li li:nth-child(2){
 ul li li:nth-child(3){
     animation-delay: .4s ;
 }
+
+ul ul {
+    position: relative;
+    display: none;
+    transition: 1s;
+}
