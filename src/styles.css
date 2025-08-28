@@ -102,3 +102,8 @@ ul li li::before{
     z-index: 1;
     transition: 1s;
 }
+
+ul li li:nth-child(1),
+ul li li:nth-child(1)::before{
+    transition-delay:1.2s ;
+}
