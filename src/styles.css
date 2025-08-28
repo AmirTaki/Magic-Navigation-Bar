@@ -179,4 +179,12 @@ ul ul {
         filter:none;
         height: 10px;
     }
+    70%{
+        width: 10px;
+        transform: translate(15px);
+        filter: blur(3px);
+    }
+    100%{
+        
+    }
 }
