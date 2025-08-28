@@ -51,8 +51,15 @@ ul li::before{
     width: 40px;
     height: 100%;
     content: '';
-       background-color: #312b57;
-       border-radius: 30px;
-       transition: 1s;
+    background-color: #312b57;
+    border-radius: 30px;
+    transition: 1s;
+}
 
+li i:nth-child(2){
+    position: absolute;
+    right: 0;
+    top: 15px;
+    transition: .5s;
+    opacity: .5;
 }
