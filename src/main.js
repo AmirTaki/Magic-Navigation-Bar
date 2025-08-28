@@ -2,15 +2,23 @@ const items = document.querySelectorAll(".item")
 const action = document.getElementById("action")
 const icondowns = document.querySelectorAll(".fa-chevron-down")
 
+const closeItems = () => {
+    items.forEach((item) => {
+        
+    })
+    items.forEach(remove_active => {
+        remove_active.classList.remove("active")
+        })
+}
+
 items.forEach((item) => {
     item.addEventListener("click", function (e) {
-        if(this.classList.contains('active')  || e.target.classList.contains('fa-chevron-down')){
+        closeItems()
+        if(this.classList.contains('active') ){
             return;
         }
 
-        items.forEach(remove_active => {
-            remove_active.classList.remove("active")
-        })
+        
         // console.log(e.target)
         this.classList.add('active');
         document.documentElement.style.setProperty("--height-begin", action.offsetHeight + "px");
@@ -21,7 +29,7 @@ items.forEach((item) => {
         action.classList.remove('runanimation')
         void action.offsetWidth;
         action.classList.add("runanimation")
-    }, true)
+    }, false)
 
 })
 
