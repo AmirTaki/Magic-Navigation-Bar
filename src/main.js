@@ -18,10 +18,10 @@ items.forEach((item) => {
         document.documentElement.style.setProperty("--height-end", this.offsetHeight + "px");
         document.documentElement.style.setProperty("--top-end", this.offsetTop + "px");
 
-        // action.classList.remove('runanimation')
-        // void action.offsetWidth;
-        // action.classList.add("runanimation")
-    }, false)
+        action.classList.remove('runanimation')
+        void action.offsetWidth;
+        action.classList.add("runanimation")
+    }, true)
 
 })
 
@@ -31,8 +31,9 @@ icondowns.forEach((icon) => {
     })
     items.forEach((item) => {
         if(item.classList.contains("active")){
-            document.documentElement.style.setProperty("--height-end", item.offsetHeight + "px")
-            document.documentElement.style.setProperty('--top-end', item.offsetTop + "px")
+            document.documentElement.style.setProperty('--height-end', item.offsetHeight + 'px');
+            document.documentElement.style.setProperty('--top-end', item.offsetTop + 'px');
+            return;
         }
     })
 })
