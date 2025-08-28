@@ -141,4 +141,12 @@ ul ul {
 
 #action {
     background-color: red;
+    position: absolute;
+    width: 40px;
+    height: var(--height-end);
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, #C45AB3, #DD789A);
+    top: var(--top-end);
+    left: 5px;
+    transition: 1s;
 }
