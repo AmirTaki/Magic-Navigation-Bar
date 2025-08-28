@@ -107,11 +107,17 @@ ul li li:nth-child(1),
 ul li li:nth-child(1)::before{
     transition-delay:1.2s ;
 }
+
 ul li li:nth-child(2),
 ul li li:nth-child(2)::before{
     transition-delay:1.4s ;
 }
+
 ul li li:nth-child(3),
 ul li li:nth-child(3)::before{
     transition-delay:1.6s ;
+}
+
+ul li li:nth-child(2){
+    animation-delay: .2s ;
 }
