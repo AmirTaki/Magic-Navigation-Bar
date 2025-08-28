@@ -150,3 +150,8 @@ ul ul {
     left: 5px;
     transition: 1s;
 }
+
+
+.active li ::before {
+    background-color: #eee;
+}
